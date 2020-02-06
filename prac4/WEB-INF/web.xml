@@ -1,0 +1,24 @@
+<web-app>
+<servlet>
+	<servlet-name>servlet11</servlet-name>
+	<servlet-class>s1</servlet-class>
+</servlet>
+
+<servlet>
+	<servlet-name>servlet12</servlet-name>
+	<servlet-class>h1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>servlet11</servlet-name>
+	<url-pattern>/man</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>servlet12</servlet-name>
+	<url-pattern>/pp3</url-pattern>
+	<http-method>POST</http-method>
+</servlet-mapping>
+
+</web-app>
